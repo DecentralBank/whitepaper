@@ -32,9 +32,10 @@ For metacoins on top of the Bitcoin blockchain we have chosen to focus on colore
 III.Proof of Trust
 ------------------
 
-Nodes cannot be trusted to self report the amount of funds they posses. The network must be able to audit and prove that the node is solvent. Using a variant of Gmaxwell’s proof of solvency proposition the network must be able to prove every node is solvent [2]. The requirements for proof of trust are not computationally expensive, but they must be dependent on the amount of trust a node can provide. A node’s trust must be composed on it’s availability, solvency and security. Trusted nodes will be rewarded with fees from incoming and outgoing transactions.
+Nodes cannot be trusted to self report the amount of funds they possess. The network must be able to audit and prove that the node is solvent. Using a variant of Gmaxwell’s proof of solvency proposition the network must be able to prove every node is solvent [2]. The requirements for proof of trust are not computationally expensive, but they must be dependent on the amount of trust a node can provide. A node’s trust must be composed on it’s availability, solvency and security. Trusted nodes will be rewarded with fees from incoming and outgoing transactions.
 
 Proposal for guarantee 
+
 In order for a Decentral node to provide a guarantee that it won’t run away with a depositor’s money they must deposit their own funds which will be held in escrow by the pool, this way should the node lose the funds for any reason the depositor gets reimbursed. The Decentral network requires a proof of funds for each and every node, should a node have less bitcoins than they are supposed to, they will automatically lose their deposit. The amount of  money that must go in and out a server must not exceed the deposit at any point in time. 
 
 
@@ -65,7 +66,12 @@ We have proposed a system where electronic transactions can happen offline. Thro
 References
 ----------
 [1]Justus Ranvier , Lex-Cryptographia,http://bitcoinism.blogspot.com.es/2013/12/lex-cryptographia.html, 2013 
+
 [2]Olivier Lalonde, Proof of Solvency, https://github.com/olalonde/proof-of-solvency, 2014
-[3] Digital Cash, http://www.cs.bham.ac.uk/~mdr/teaching/modules06/netsec/lectures/DigitalCash.html
+
+[3] Digital Cash, http://www.cs.bham.ac.uk/~mdr/teaching/modules06/netsec/lectures/DigitalCas
+h.html
+
 [4]Dr. Washington Sanchez, Separation of Notary and Arbitration Services on OpenBazzaar,https://gist.github.com/drwasho/f1e0a9f5826f5cc4186e, 2014
+
 [5]Mike Hearn,Micropayment Channels, https://bitcoinj.github.io/working-with-micropayments
